@@ -17,7 +17,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
+                    {% if category[0] == "STL " %}
                         <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -197,11 +197,10 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">네트워크 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/network" class="">CS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Server1" %}
@@ -209,7 +208,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">DB</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DB" %}
