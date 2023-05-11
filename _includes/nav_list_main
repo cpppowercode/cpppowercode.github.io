@@ -8,7 +8,6 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">C/C++/C#</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
@@ -52,7 +51,6 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
@@ -89,7 +87,6 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unity Lesson 1" %}
@@ -126,7 +123,6 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">UE4</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UE4 Lesson 1" %}
@@ -170,7 +166,6 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Lesson 1" %}
@@ -229,7 +224,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">etc</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
@@ -275,8 +269,8 @@
       </li>
       <li>	
             <br>      
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false">
-      </li>
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcpppowercode.github.io&count_bg=%231D8E94&title_bg=%23B28F8F&icon=unrealengine.svg&icon_color=%23FF0000&title=%EA%B7%80%ED%95%9C%EA%B3%B3%EC%97%90+%EB%88%84%EC%B6%94%ED%95%9C%EB%B6%84%EC%9D%B4&edge_flat=false" alt="visitors badge">
+        </li>
   </ul>
 </nav>
 
