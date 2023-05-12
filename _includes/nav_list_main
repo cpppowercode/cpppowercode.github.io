@@ -11,7 +11,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -125,8 +125,8 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "UE4 Lesson 1" %}
-                        <li><a href="/categories/ue4-lesson-1" class="">언리얼 블루프린트 강의 1 ({{category[1].size}})</a></li>
+                    {% if category[0] == "UE4" %}
+                        <li><a href="/categories/ue4" class="">UnrealEngine ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -196,8 +196,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">CS ({{category[1].size}})</a></li>
+                    {% if category[0] == "CS" %}
+                        <li><a href="/categories/cs" class="">CS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
