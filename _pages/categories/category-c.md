@@ -1,7 +1,7 @@
 ---
-title: "C 프로그래밍"
+title: "CS"
 layout: archive
-permalink: categories/c
+permalink: categories/cs
 author_profile: true
 sidebar_main: true
 ---

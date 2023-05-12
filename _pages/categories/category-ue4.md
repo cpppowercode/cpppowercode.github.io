@@ -1,7 +1,7 @@
 ---
-title: "나만의 언리얼 문서들"
+title: "UnrealEngine"
 layout: archive
-permalink: categories/ue4-docs
+permalink: categories/ue4
 author_profile: true
 sidebar_main: true
 ---
