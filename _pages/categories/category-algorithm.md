@@ -1,5 +1,5 @@
 ---
-title: "알고리즘 구현 (with C++)"
+title: "Algorithm C++"
 layout: archive
 permalink: categories/algorithm
 author_profile: true

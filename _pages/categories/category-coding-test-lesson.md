@@ -1,7 +1,7 @@
 ---
-title: "IT 취업을 위한 알고리즘 문제 풀이 with C/C++"
+title: "BaekJoon C++"
 layout: archive
-permalink: categories/coding-test-lesson
+permalink: categories/baekjoon
 author_profile: true
 sidebar_main: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "CodeUp 사이트 문제 풀이"
+title: "CodeUp 문제 풀이"
 layout: archive
 permalink: categories/codeup
 author_profile: true
