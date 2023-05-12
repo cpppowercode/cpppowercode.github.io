@@ -1,3 +1,3 @@
-## 블로그 포스팅과 커스터마이징 하는 공간입니다. 😀💛
+## 깃허브
 
-<https://ansohxxn.github.io>
+<https://cpppowercode.github.io>
