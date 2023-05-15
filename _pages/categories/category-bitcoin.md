@@ -1,7 +1,7 @@
 ---
-title: "암호화폐에 대한 개인적인 호기심"
+title: "변수"
 layout: archive
-permalink: categories/bitcoin
+permalink: categories/variable
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Bitcoin %}
+{% assign posts = site.categories.Variable %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
