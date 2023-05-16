@@ -75,7 +75,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DirectX" %}
-                        <li><a href="/categories/directx" class="">코딩 테스트 강의 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/directx" class="">DirextX11 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
