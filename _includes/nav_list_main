@@ -67,15 +67,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "BaekJoon" %}
-                        <li><a href="/categories/baekjoon" class="">백준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "BOJ" %}
+                        <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Coding Test Lesson" %}
-                        <li><a href="/categories/coding-test-lesson" class="">코딩 테스트 강의 ({{category[1].size}})</a></li>
+                    {% if category[0] == "DirextX" %}
+                        <li><a href="/categories/directx" class="">코딩 테스트 강의 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

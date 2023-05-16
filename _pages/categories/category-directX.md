@@ -1,7 +1,7 @@
 ---
-title: "Rookiss님의 '[MMORPG 게임 개발 시리즈] Part4: 게임 서버 강의 필기"
+title: "DirectX11"
 layout: archive
-permalink: categories/server1
+permalink: categories/directx
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Server1 %}
+{% assign posts = site.categories.DirectX %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
