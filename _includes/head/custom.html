@@ -10,21 +10,4 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#40b3a1">
 
-<script>
-    // 마우스 이벤트 리스너 등록
-    document.addEventListener('mousemove', function(event) {
-      // 마우스 위치 정보 가져오기
-      var mouseX = event.pageX;
-      var mouseY = event.pageY;
-      
-      // 효과 생성을 위한 작업 수행
-      // 예시: 마우스 위치에 따라 요소의 색상 변경
-      var element = document.getElementById('targetElement');
-      var red = Math.floor(mouseX / window.innerWidth * 255);
-      var green = Math.floor(mouseY / window.innerHeight * 255);
-      var blue = 100;
-      element.style.backgroundColor = 'rgb(' + red + ', ' + green + ', ' + blue + ')';
-    });
-  </script>
-
 <!-- end custom head snippets -->
