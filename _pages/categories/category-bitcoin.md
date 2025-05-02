@@ -1,7 +1,7 @@
 ---
-title: "변수"
+title: "Physics"
 layout: archive
-permalink: categories/variable
+permalink: categories/phy
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Variable %}
+{% assign posts = site.categories.Phy %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
