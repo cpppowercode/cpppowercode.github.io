@@ -17,15 +17,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL " %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Me " %}
+                        <li><a href="/categories/stl" class="">Me ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "C++ games" %}
-                        <li><a href="/categories/cpp-games" class="">C++ 연습 문제 패키지 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Phy" %}
+                        <li><a href="/categories/cpp-games" class="">Physics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
